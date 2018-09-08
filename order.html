@@ -7,9 +7,11 @@
 <body>
 	<!--Entête-->
 	<header>
+		<!--Logo-->
 		<a href="index.html">
-			<img src="assets\img\logo.svg">
+			<img src="assets/img/logo.svg" alt="Accueil">
 		</a>
+		<!--Menu de navigation-->
 		<nav>
 			<a href="index.html">Accueil</a>
 			<a href="products.html">Produits</a>
@@ -19,10 +21,14 @@
 	</header>
 
 	<main>
+		<!--Titre-->
 		<h1>Commande</h1>
-
+		<!--Formulaire-->
 		<form action="confirmation.html">
-			<div id="contact">
+			<!--Section Contact-->
+			<section id="contact">
+				<h2>Contact</h2>
+
 				<label for="first-name">Prénom</label>
 				<input type="text" id="first-name" required>
 
@@ -34,20 +40,24 @@
 
 				<label for="phone">Numéro de téléphone</label>
 				<input type="tel" id="phone" required>
-			</div>
+			</section>
 			<br>
-			<div id="paiement">
+			<!--Section Paiement-->
+			<section id="paiement">
+				<h2>Paiement</h2>
+
 				<label for="credit-card">Numéro de carte de crédit</label>
 				<input type="text" id="credit-card" required>
 
 				<label for="credit-card-expiry">Date d'expiration de la carte</label>
 	    		<input type="text" id="credit-card-expiry" placeholder="MM/YY" maxlength="5" size="5" required>
-			</div>
+			</section>
 
 			<input type="submit" value="Payer">
 		</form>
 	</main>
 
+	<!--Pied de page-->
 	<footer>
 		<p>Abboud, Anthony. #1681547</p>
 		<p>Fall, Sidy. #1973081</p>
