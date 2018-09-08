@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>OnlineShop - Commande</title>
+</head>
+<body>
+	<!--Entête-->
+	<header>
+		<a href="index.html">
+			<img src="assets\img\logo.svg">
+		</a>
+		<nav>
+			<a href="index.html">Accueil</a>
+			<a href="products.html">Produits</a>
+			<a href="contact.html">Contact</a>
+			<a href="shopping-cart.html">Panier</a>
+		</nav>
+	</header>
+
+	<main>
+		<h1>Commande</h1>
+
+		<form action="confirmation.html">
+			<div id="contact">
+				<label for="first-name">Prénom</label>
+				<input type="text" id="first-name" required>
+
+				<label for="last-name">Nom</label>
+				<input type="text" id="last-name" required>
+
+				<label for="email">Adresse courriel</label>
+				<input type="email" id="email" required>
+
+				<label for="phone">Numéro de téléphone</label>
+				<input type="tel" id="phone" required>
+			</div>
+			<br>
+			<div id="paiement">
+				<label for="credit-card">Numéro de carte de crédit</label>
+				<input type="text" id="credit-card" required>
+
+				<label for="credit-card-expiry">Date d'expiration de la carte</label>
+	    		<input type="text" id="credit-card-expiry" placeholder="MM/YY" maxlength="5" size="5" required>
+			</div>
+
+			<input type="submit" value="Payer">
+		</form>
+	</main>
+
+	<footer>
+		<p>Abboud, Anthony. #1681547</p>
+		<p>Fall, Sidy. #1973081</p>
+	</footer>
+</body>
+</html>
